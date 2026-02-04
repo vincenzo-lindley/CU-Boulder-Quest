@@ -1,5 +1,4 @@
-# CU-Boulder-Quest
-INFO 4607
+```mermaid
 erDiagram
     USERS ||--o{ REQUESTS : creates
     CATEGORIES ||--o{ REQUESTS : classifies
@@ -22,3 +21,4 @@ erDiagram
     USERS ||--o{ PAYMENTS : pays
     USERS ||--o{ PAYMENTS : gets_paid
     REQUESTS ||--o{ PAYMENTS : for
+```
