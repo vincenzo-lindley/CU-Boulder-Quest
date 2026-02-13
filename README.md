@@ -11,7 +11,7 @@ erDiagram
     USERS ||--o{ RATINGS : receives
     REQUESTS ||--o{ RATINGS : for
 
-    SCHOOLS ||--o{ USER_SCHOOLS : includes
+    SCHOOL ||--o{ USER_SCHOOLS : includes
     USERS ||--o{ USER_SCHOOLS : affiliated_with
 
     USERS ||--o{ MESSAGES : sends
